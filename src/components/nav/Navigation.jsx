@@ -11,7 +11,7 @@ export const Navigation = () => {
         </a>
         <ul className='list'>
           <li>
-            <a href='#'>News</a>
+            <a href='/newsnoauth'>News</a>
           </li>
           <li>
             <a href='#'>Bookshelf</a>

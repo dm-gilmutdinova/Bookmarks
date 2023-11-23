@@ -25,8 +25,8 @@ export const Footer = () => {
               <a href=''>Contact us</a>
             </li>
           </ul>
-          <a href='mailto:Bookmarks@pochta.com' className='footer__mail'>
-            Bookmarks @pochta.com
+          <a href='mailto:dm.gilmutdinova@gmail.com' className='footer__mail'>
+            dm.gilmutdinova@gmail.com
           </a>
         </div>
       </div>

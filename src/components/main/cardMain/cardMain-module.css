@@ -31,6 +31,8 @@
 }
 
 .cards__btn {
+  display: flex;
+  align-items: center;
   border: none;
   background: #6e4e92;
   position: relative;

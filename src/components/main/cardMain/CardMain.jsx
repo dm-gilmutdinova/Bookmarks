@@ -19,7 +19,9 @@ export const CardMain = () => {
           <br />
           Join Bookmarks today and start your journey into the world of books!
         </div>
-        <button className='cards__btn'>Make Bookmarks</button>
+        <a href='/login' className='cards__btn'>
+          Make Bookmarks
+        </a>
       </div>
     </div>
   );

@@ -5,8 +5,9 @@ nav {
   /* justify-content: space-between; */
 }
 
-nav a {
-  text-decoration: none;
+nav a:active,
+nav a:visited {
+  color: #6e4e92;
 }
 
 .list {
