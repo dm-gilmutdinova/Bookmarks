@@ -3,7 +3,7 @@ import { ReactComponent as BookshelfIcon } from './../../../img/card/bookshelf.s
 
 import './card-module.css';
 
-export const Card = () => {
+export const Card = ({ name, id_name, about }) => {
   return (
     <div className='container'>
       <div className='card'>
@@ -11,8 +11,8 @@ export const Card = () => {
           <div className='card__us'>
             <div className='card__img'></div>
             <div className='card__user'>
-              <div className='card__user-name'>Name</div>
-              <div className='card__user-id'>@id_name</div>
+              <div className='card__user-name'>{name}</div>
+              <div className='card__user-id'>{id_name}</div>
             </div>
           </div>
           <div className='card__follow'>
@@ -21,7 +21,8 @@ export const Card = () => {
         </div>
         <div className='card__head-title'>
           <div className='card__head-about'>
-            Hello! My name is [Name], and I am an avid book lover. I believe
+            {about}
+            {/* Hello! My name is [Name], and I am an avid book lover. I believe
             that books are not just paper pages, but magical portals to other
             worlds that allow us to immerse ourselves in exciting adventures,
             broaden our horizons, and find inspiration.
@@ -48,7 +49,7 @@ export const Card = () => {
             <br />
             Let's dive into the world of words, art, and imagination together.
             Read my reviews, share your thoughts, and get inspired by new book
-            discoveries!
+            discoveries! */}
           </div>
           <div className='card__head-shelf'>
             <div className='card__title-shelf'>Shelf</div>
